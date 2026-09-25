@@ -8,33 +8,92 @@
 </head>
 
 <body>
-    <h1>Студентська картка</h1>
-    <section>
-        <h2>Персональна інформація</h2>
-        <fieldset>
-            <Legend> Надайте свої дані</Legend>
+    <header>
+        <h1>Студентська картка</h1>
+    </header>
+    <main>
+        <section>
             <form action="." method="get">
-                <section>
-                    <label for="name">Повне ім'я:</label>
-                    <input type="text" id="name" name="name">
-                </section>
+                <h2>Персональна інформація</h2>
+                <fieldset>
+                    <legend> Надайте свої дані</legend>
 
-                <section>
-                    <label for="password">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </section>
+                    <p>
+                        <label for="name">Повне ім'я:</label>
+                        <input type="text" id="name" name="name">
+                    </p>
 
-                <section>
-                    <label for="password">Пароль:</label>
-                    <input type="password" id="password" name="password">
-                </section>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="password">Пароль:</label>
+                        <input type="password" id="password" name="password">
+                    </p>
+
+                    <p>
+                        <label for="age">Вік:</label>
+                        <input type="number" id="age" name="age">
+                    </p>
+
+                    <p>
+                        <label for="data">Дата народження:</label>
+                        <input type="data" id="data" name="data">
+                    </p>
+
+                    <p>
+                        <label for="gender">Стать:</label>
+                    <section>
+                        <input type="radio" id="male" name="gender" value="male"><label for="male">Чоловіча</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="female" name="gender" value="female"><label for="female">Жіноча</label>
+                    </section>
+                    <section>
+                        <input type="radio" id="other" name="gender" value="other"><label for="other">Інша</label>
+                    </section>
+                    </p>
+
+                    <p>
+                        <label for="languages">Знання мов:</label>
+                    <section>
+                        <input type="checkbox" id="english" name="languages" value="english">
+                        <label for="english">Англійська</label>
+                    </section>
+                    <section>
+                        <input type="checkbox" id="spanish" name="languages" value="spanish">
+                        <label for="spanish">Іспанська</label>
+                    </section>
+                    <section>
+                        <input type="checkbox" id="french" name="languages" value="french">
+                        <label for="french">Французька</label>
+                    </section>
+                    </p>
+
+                    <p>
+                        <label for="country">Країна:</label>
+                        <select name="country" id="country">
+                                <option value="ukraine">Україна</option>
+                                <option value="kazahstan">Казахстан</option>
+                                <option value="romania">Румунія</option>
+                                <option value="poland">Польща</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+                <h2>Навчальна дисципліна в коледжі:</h2>
+                <fieldset>
+                    <legend>Оберіть дисципліну</legend>
+                    <label for="subject">Дисципліни:</label>
+                    <select name="" id=""></select>
+                </fieldset>
 
                 <button type="submit">Відправити</button>
             </form>
-
-        </fieldset>
-    </section>
-
+        </section>
+    </main>
 </body>
 
 </html>
