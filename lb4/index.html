@@ -75,10 +75,10 @@
                     <p>
                         <label for="country">Країна:</label>
                         <select name="country" id="country">
-                                <option value="ukraine">Україна</option>
-                                <option value="kazahstan">Казахстан</option>
-                                <option value="romania">Румунія</option>
-                                <option value="poland">Польща</option>
+                            <option value="ukraine">Україна</option>
+                            <option value="kazahstan">Казахстан</option>
+                            <option value="romania">Румунія</option>
+                            <option value="poland">Польща</option>
                             </optgroup>
                         </select>
                     </p>
@@ -87,12 +87,47 @@
                 <fieldset>
                     <legend>Оберіть дисципліну</legend>
                     <label for="subject">Дисципліни:</label>
-                    <select name="" id=""></select>
-                </fieldset>
+                    <section>
+                    <select multiple name="subject" id="subject">
+                        <option value="mathematics">Математика</option>
+                        <option value="computer Science">Комп'ютерні науки</option>
+                        <option value="physics">Фізика</option>
+                        <option value="chemistry">Хімія</option>
+                        <option value="English">Англійська</option>
+                    </select>
+                </section>
+                    <p>
+                        <label for="range">Оцініть свій інтерес до дисципліни</label>
+                        <input type="range">
 
-                <button type="submit">Відправити</button>
+                    </p>
+                </fieldset>
+                <h2>Оцінювання навичок</h2>
+                <fieldset>
+                    <legend>Оцініть свої навички</legend>
+                    <label for="textarea">Опишіть свої навички</label>
+                    <section>
+                        <textarea name="textarea" rows="4" cols="50" id="textarea"></textarea>
+                    </section>
+                    <p>
+                        <label for="file">Завантажте своє резюме</label>
+                        <input type="file">
+                    </p>
+                    <p>
+                        <label for="color">Виберіть ваш улюблений колір:</label>
+                        <input type="color">
+                    </p>
+                    <p>
+                        <label for="time">Бажаний час навчання:</label>
+                        <input type="time">
+                    </p>
+                    <p>
+                        <button type="submit"> Надіслати опитуваання</button>
+                    </p>
+                </fieldset>
             </form>
         </section>
+        <p>&copy; Student card by Kushnir Rostislav. All rights reserved</p>
     </main>
 </body>
 
