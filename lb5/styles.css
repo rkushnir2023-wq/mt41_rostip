@@ -1,0 +1,42 @@
+* {box-sizing: border-box;}
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    font-size: 1.6rem;
+
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+header {display: block;
+
+unicode-bidi: isolate;
+
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DRs5.woff2) format('woff2');
+    unicode-range: U +0460 -052F, U +1C80 -1C8A, U +20B4, U +2DE0 -2DFF, U + A640-A69F, U + FE2E-FE2F;
+}
+
+#events_container {
+        padding: 3rem 0 3rem 0;
+
+    background: #252775;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+
+
+}
+
+container::before {}
+
