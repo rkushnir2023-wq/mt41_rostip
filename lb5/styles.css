@@ -38,5 +38,106 @@ unicode-bidi: isolate;
 
 }
 
-container::before {}
+@media (max-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
 
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#events_container .col-sm-4 .views-field {
+    background: #fff;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+a:link {
+    color: #0076A8;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: transparent;
+}
+
+#events_container a:link img, #events_container a:visited img {
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    transition: opacity 2s ease-out;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+.event_date {
+    padding: 15px;
+    border-bottom: 1px dotted #252775;
+    text-align: center;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#events_container h3 {
+    padding: 15px;
+    margin: 0;
+    font-size: 1.8rem;
+    background: #f6f6f6;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
