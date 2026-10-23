@@ -42,14 +42,14 @@ h2 {
 }
 
 .clear {
-    /*clear: VALUE;*/
+    clear: both;
 }
 
 /* Секція 2 */
 .multicolumn-text {
     column-width: 300px;
     column-gap: 20px;
- /* Текст у 2 колонки */
+    column-count: 2;
 }
 
 
@@ -69,20 +69,20 @@ h2 {
 
 /* Модальне вікно */
 #modal.hidden {
-    /*display: VALUE*/
+    display: none;
 }
 
 #modal {
-    /*position: VALUE;*/
-    /*top: VALUE;*/
-    /*left: VALUE;*/
+    position: fixed;
+    top: 10px;
+    left: 3px;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    /*z-index: VALUE;*/
+    z-index: 150;
 }
 
 .modal-content {
