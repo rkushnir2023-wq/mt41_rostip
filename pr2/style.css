@@ -1,0 +1,12 @@
+section header {
+    padding: 143px 255px;
+    width: 1280px;
+    height: 600px;
+    background: #f7f5fd;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin: 0;
+}
