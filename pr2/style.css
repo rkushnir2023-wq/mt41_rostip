@@ -1,12 +1,19 @@
-section header {
-    padding: 143px 255px;
-    width: 1280px;
+.main_page {
     height: 600px;
-    background: #f7f5fd;
+    background:#f7f5fd;
 }
 
-h1 {
-    color: #333;
-    font-size: 36px;
-    margin: 0;
+.video-section {
+    height: 460px;
+    background:#f2faf8;;
+}
+
+.testimonials {
+    height: 233px;
+    background:#e5f4f2;;
+}
+
+.contact {
+    height: 400px;
+    background:#fae6b5;
 }
