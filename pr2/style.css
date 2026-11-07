@@ -1,19 +1,61 @@
 .main_page {
+    text-align: center;
+    padding: 143px 300px;
+    width: 1280px;
     height: 600px;
-    background:#f7f5fd;
+    background: #f7f5fd;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 113%;
 }
 
 .video-section {
-    height: 460px;
-    background:#f2faf8;;
+    text-align: center;
+    padding: 70px 100px;
+    width: 1280px;
+    height: 600px;
+    background: #f2faf8;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
 }
 
+.companys {
+    text-align: center;
+    width: 1280px;
+    height: 400px;
+    background: #f7f5fd;
+    margin: 0 auto;
+}
+
+
+
 .testimonials {
-    height: 233px;
-    background:#e5f4f2;;
+    text-align: center;
+    width: 1280px;
+    height: 400px;
+    background: #e5f4f2;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
 }
 
 .contact {
-    height: 400px;
-    background:#fae6b5;
+    text-align: center;
+    padding: 107px 300px;
+    width: 1280px;
+    height: 502px;
+    background: #fae6b5;
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+}
+
+button {
+    border-radius: 10px;
+    width: 203px;
+    height: 64px;
+    background: #F8D57E;
 }
